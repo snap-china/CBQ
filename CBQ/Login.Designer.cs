@@ -1,6 +1,6 @@
 ﻿namespace CBQ
 {
-    partial class LoadIndex
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.
@@ -102,7 +102,7 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // LoadIndex
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -114,8 +114,8 @@
             this.Controls.Add(this.Captcha);
             this.Controls.Add(this.Pwd);
             this.Controls.Add(this.Eamil_Tel);
-            this.Name = "LoadIndex";
-            this.Text = "LoadIndex";
+            this.Name = "Login";
+            this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
 

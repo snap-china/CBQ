@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CBQ
 {
-    public partial class LoadIndex : Form
+    public partial class Login : Form
     {
-        public LoadIndex()
+        public Login()
         {
             InitializeComponent();
 

@@ -177,29 +177,20 @@ namespace BLL
             string checkCode;
             switch (_codetype)
             {
-
                 case CodeType.Alphas:
-
                     checkCode = GenerateAlphas();
-
                     break;
 
                 case CodeType.Numbers:
-
                     checkCode = GenerateNumbers();
-
                     break;
 
                 case CodeType.Characters:
-
                     checkCode = GenerateCharacters();
-
                     break;
 
                 default:
-
                     checkCode = GenerateAlphas();
-
                     break;
 
             }
