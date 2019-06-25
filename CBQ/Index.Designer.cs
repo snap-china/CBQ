@@ -34,7 +34,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(589, 541);
+            this.ClientSize = new System.Drawing.Size(607, 639);
             this.Name = "Index";
             this.Text = "Index";
             this.ResumeLayout(false);
