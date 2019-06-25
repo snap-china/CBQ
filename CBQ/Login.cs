@@ -16,17 +16,17 @@ namespace CBQ
         {
             InitializeComponent();
 
-            if (!this.txtValidCode.Text.Equals(_validCode.CheckCode))
-            {
+            //if (!this.txtValidCode.Text.Equals(_validCode.CheckCode))
+            //{
 
-                MessageBox.Show(" 请输入正确的验证码!", this.Text);
+            //    MessageBox.Show(" 请输入正确的验证码!", this.Text);
 
-                this.txtValidCode.Focus();
+            //    this.txtValidCode.Focus();
 
-                return;
+            //    return;
 
-            }
-            picValidCode.Image = Bitmap.FromStream(ValidCode.CreateCheckCodeImage());
+            //}
+            //picValidCode.Image = Bitmap.FromStream(ValidCode.CreateCheckCodeImage());
 
         }
 
