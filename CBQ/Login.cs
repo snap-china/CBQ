@@ -34,7 +34,7 @@ namespace CBQ
         /// 简单冒泡排序
         /// </summary>
         /// <param name="array"></param>
-        private static void BubbleSortSort(int[] array)
+        static void BubbleSortSort(int[] array)
         {
             #region 简单参数检查
             if (array == null)
